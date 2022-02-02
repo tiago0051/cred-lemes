@@ -44,3 +44,7 @@ a {
 input {
   outline: 0;
 }
+
+button {
+  text-transform: uppercase;
+}

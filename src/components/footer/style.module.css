@@ -9,7 +9,7 @@
 }
 
 .footer > div:first-child{
-    width: 35%;
+    width: 200px;
 }
 
 .footer > div {
@@ -70,9 +70,5 @@
         width: 100%;
         margin: 1rem 0;
         padding: 0;
-    }
-
-    .footer > div:first-child{
-        width: 100%;
     }
 }
