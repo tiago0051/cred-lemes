@@ -22,22 +22,22 @@ export default function SecondSession(){
 
                 <ul>
                     <li>
-                        <Image src="/images/segunda-sessão/botao-juros.png" alt="Juros" width={100} height={100}/>
+                        <Image src="/images/segunda-sessão/botao-juros.webp" alt="Juros" width={100} height={100}/>
                         <p>Taxa de juros baixa</p>
                     </li>
 
                     <li>
-                        <Image src="/images/segunda-sessão/botao-contratar.png" alt="Contratar" width={100} height={100}/>
+                        <Image src="/images/segunda-sessão/botao-contratar.webp" alt="Contratar" width={100} height={100}/>
                         <p>Contratação fácil e rápida</p>
                     </li>
 
                     <li>
-                        <Image src="/images/segunda-sessão/botao-não-atrapalha.png" alt="Não atrapalha" width={100} height={100}/>
+                        <Image src="/images/segunda-sessão/botao-não-atrapalha.webp" alt="Não atrapalha" width={100} height={100}/>
                         <p>Não atrapalha o seu<br/>orçamento mensal</p>
                     </li>
 
                     <li>
-                        <Image src="/images/segunda-sessão/botao-dinheiro-rapido.png" alt="Dinheiro Rápido" width={100} height={100}/>
+                        <Image src="/images/segunda-sessão/botao-dinheiro-rapido.webp" alt="Dinheiro Rápido" width={100} height={100}/>
                         <p>Dinheiro rápido na sua conta</p>
                     </li>
                 </ul>
