@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem 50px;
+    background: transparent linear-gradient(0deg, #ECEDEA 0%, #F8F8F6 50%, #DCDBD8 100%) 0% 0% no-repeat padding-box;
+
+    @media (max-width: 768px) {
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    > div {
+        width: 200px;
+    }
+}
