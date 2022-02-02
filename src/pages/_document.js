@@ -6,19 +6,19 @@ class WebDocument extends Document {
         <Head>
         <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=G-JPBZ4JC9NJ"
+            src="https://www.googletagmanager.com/gtag/js?id=G-039X2BHSL6"
           />
 
-          {/*<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-JPBZ4JC9NJ', { page_path: window.location.pathname });
+                gtag('config', 'G-039X2BHSL6', { page_path: window.location.pathname });
               `,
             }}
-          />*/}
+          />
 
           <script
               dangerouslySetInnerHTML={{
