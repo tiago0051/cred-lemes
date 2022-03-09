@@ -22,37 +22,31 @@ const Home: NextPage = () => {
 
       <section className={styles.sessão1}>
       <div>
-          <form>
+          <form id="formulario" action="https://paginas.rocks/pages/index/622289" method="post" >
               <div>
                 <Image src="/images/primeira-sessão/titulo-formulario.webp" alt="É a sua vez, saque aniversário FGTTS" width={541} height={314} layout="responsive"/>
               </div>
 
+              <input id="id" name="id" type="hidden" value="622289" />
+              <input id="mid" name="mid" type="hidden" value="622289" />
+              <input id="pid" name="pid" type="hidden" value="20636407" />
+              <input id="list_id" name="list_id" type="hidden" value="622289" />
+
+              <input id="provider" name="provider" type="hidden" value="leadlovers" />
+
               <label>
                   <p>Nome e Sobrenome</p>
-                  <input type="text"/>
-              </label>
-              
-              <label>
-                  <p>CPF</p>
-                  <input type="text"/>
-              </label>
-
-              <label>
-                  <p>Celular</p>
-                  <input type="text"/>
-              </label>
-
-              <label>
-                  <p>CEP</p>
-                  <input type="text"/>
+                  <input type="text" id="name" name="name"/>
               </label>
               
               <label>
                   <p>E-mail</p>
-                  <input type="email"/>
+                  <input type="email" id="email" name="email"/>
               </label>
 
-              <button>Solicite aqui</button>
+              <button type='submit'>Solicite aqui</button>
+              <input type="hidden" id="source" name="source" value="" />
+              <img src="https://llimages.com/redirect/redirect.aspx?A=V&p=20636407&m=622289" style={{display: "none"}} />
           </form>
         </div>
       </section>

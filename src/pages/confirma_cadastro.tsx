@@ -2,11 +2,15 @@ import Image from 'next/image'
 import { FaWhatsapp } from 'react-icons/fa'
 import { useRouter } from 'next/router'
 import styles from '../styles/confirma_cadastro.module.scss'
+import Head from 'next/head'
 
 export default function Confirma_Cadastro(){
     const router = useRouter()
     return(
         <main className={styles.main}>
+            <Head>
+                <title>Cred Lemes - Cadastrado com sucesso!</title>
+            </Head>
             <div>
                 <div><Image src="/images/confirma_cadastro/agradecimento.png" alt='Orbigado' width={713} height={283}/></div>
                 <h2>Você está quase lá...</h2>
